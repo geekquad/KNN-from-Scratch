@@ -26,3 +26,28 @@ In KNN, K is the number of nearest neighbors. The number of neighbors is the cor
   
   > When p = 2, this is equivalent to using euliddean_distance(l2)</p>
   </ul>
+  <hr> </hr>
+  
+  ### Evaluation of the model (without parameters tuning):
+
+
+                precision   recall  f1-score   support
+          0       0.77      0.83      0.80        12
+          1       0.72      0.54      0.62        24
+          2       0.48      0.61      0.54        18
+    avg / total   0.65      0.63      0.63        54
+  
+  #### Accuracy: 0.62
+  <hr> </hr>
+  
+  ### Evaluation of the model (after parameters tuning):
+  
+                 precision    recall  f1-score   support
+          0       0.77      0.83      0.80        12
+          1       0.71      0.62      0.67        24
+          2       0.50      0.56      0.53        18
+    avg / total   0.66      0.65      0.65        54
+
+  #### Accuracy: 0.64
+ As we can see, after parameters tuning, the accuracy of the model **increased.**
+  
